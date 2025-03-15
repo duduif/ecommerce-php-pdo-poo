@@ -17,3 +17,4 @@ Este projeto é um sistema de e-commerce desenvolvido em **PHP** com **PDO** par
 - 🔐 **Cadastro e login de usuários** (planejado para implementação futura).  
 
 ## 📂 Estrutura do Projeto  
+/iiiunidadeweb │── /assets # Arquivos CSS e imagens │── /config # Configuração do PDO │── /classes # Classes do projeto (Produto, Carrinho, Usuário) │── index.php # Página inicial do e-commerce
