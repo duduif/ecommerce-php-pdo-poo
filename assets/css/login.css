@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+.main {
+	width: 400px;
+	background: url("https://via.placeholder.com/400x500") no-repeat center/cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+	overflow: hidden;
+}
+
+#chk {
+	display: none;
+}
+
+.login {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: transform 0.8s ease-in-out;
+}
+
+.login {
+	transform: translateY(0);
+}
+
+#chk:checked ~ .login {
+	transform: translateY(-100%);
+}
+
+label {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+input {
+	width: 80%;
+	padding: 12px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+button {
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+	background: #573b8a;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #6d44b8;
+}
+
+.tema-selector {
+	margin: 20px 0;
+	text-align: center;
+}
+
+select {
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+label[for="chk"] {
+	pointer-events: none;
+}

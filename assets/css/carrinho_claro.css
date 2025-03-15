@@ -1,0 +1,43 @@
+body {
+    background: rgb(77, 54, 100);
+    background: linear-gradient(90deg, rgba(77, 54, 100, 1) 0%, rgba(186, 181, 246, 1) 35%);
+    color: black;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+a {
+        color: black;
+        padding: 20px;  
+        font-size: 25px;
+    }
+.produto {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        }
+h1{
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.carrinho-icone {
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+.login-icone{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}

@@ -1,0 +1,63 @@
+body {
+	background: rgb(77, 54, 100);
+	background: linear-gradient(90deg, rgba(77, 54, 100, 1) 0%, rgba(186, 181, 246, 1) 35%);
+	color: black;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+
+
+.produtos-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+a {
+	color: black;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.produto {
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+}
+
+.produto form {
+	margin-top: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.mensagem-sucesso {
+	color: green;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.carrinho-icone {
+	margin-left: 20px;
+	font-size: 30px;
+	color: black;
+}
+
+.login-icone {
+	margin-left: 20px;
+	font-size: 30px;
+	color: black;
+}
