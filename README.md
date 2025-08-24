@@ -19,7 +19,7 @@ Este projeto é um sistema de e-commerce desenvolvido em **PHP** com **PDO** par
 ## 📂 Estrutura do Projeto  
 
 ```sh
-/iiiunidadeweb  
+/ecommerce  
 │── /assets        # Arquivos CSS e imagens  
 │── /config        # Configuração do PDO  
 │── /classes       # Classes do projeto (Produto, Carrinho, Usuário)  
