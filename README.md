@@ -1,4 +1,4 @@
-# 🛒 E-commerce com PHP, PDO, POO e CSS  
+# E-commerce com PHP, PDO, POO e CSS  
 
 Este projeto é um sistema de e-commerce desenvolvido em **PHP** com **PDO** para a conexão ao banco de dados, utilizando **Programação Orientada a Objetos (POO)** para uma estrutura modular e organizada. O design é estilizado com **CSS**, proporcionando uma experiência agradável ao usuário.  
 
